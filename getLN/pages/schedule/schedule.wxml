@@ -1,0 +1,100 @@
+<view class='seat_container'>
+    <view class='seat_inner_container'>
+      <view class='seat_title_container'>主会场信息</view>
+      <view class='seat_item_container noline'>
+        <view class='schedule_title'>主会场地址：</view>
+      </view>
+      <view class='seat_item_container'>
+       <view class='schedule_item'>广州市天河区五山华南理工大学励吾科技大楼负一层国际会议厅</view>
+      </view>
+      <view class='seat_item_container noline'>
+        <view class='schedule_title'>交通工具发车地点与时间：</view>
+      </view>
+      <view class='schedule_item'>
+        <view class='seat_item_container noline'>
+          <text>大学城校区，16号8点</text>
+        </view>
+        <view class='seat_item_container'>
+          <text>五山校区，16号9点</text>
+        </view>
+      </view>
+      <view class='seat_title_container seat_title'>用餐信息</view>
+      <view class='seat_item_container noline'>
+        <view class='schedule_title'>用餐时间与地址：</view>
+      </view>
+      <view class='schedule_item'>
+        <view class='seat_item_container noline'>
+          <text>15日晚（住宿酒店）</text>
+        </view>
+        <view class='seat_item_container noline'>
+          <text>16日午（西湖苑）</text>
+        </view>
+        <view class='seat_item_container'>
+          <text>16日晚（东方文德广场百乐门餐厅）</text>
+        </view>
+      </view>
+      
+      <view class='seat_item_container noline'>
+        <view class='schedule_title'>交通工具发车地点与时间：</view>
+      </view>
+      <view class='schedule_item'>
+        <view class='seat_item_container noline'>
+          <text>大学城校区，16号8点</text>
+        </view>
+        <view class='seat_item_container'>
+          <text>五山校区，16号9点</text>
+        </view>
+      </view>
+
+     <view class='seat_title_container seat_title'>分会场信息</view>
+      <view class='seat_item_container noline'>
+        <view class='schedule_title'>行业分享会地址（16日15:00-17:00）：</view>
+      </view>
+      <view class='schedule_item'>
+        <view class='seat_item_container noline'>
+          <text>分会1：人工智能行业校友会成立大会暨信息技术与人工智能行业分享座谈会</text>
+        </view>
+        <view class='seat_item_container'>
+          <text>地点：五山校区励吾楼负一层国际会议厅</text>
+        </view>
+        <view class='seat_item_container noline'>
+          <text>分会2：先进材料行业分享座谈会</text>
+        </view>
+        <view class='seat_item_container'>
+          <text>地点：东方文德广场金色大厅</text>
+        </view>
+        <view class='seat_item_container noline'>
+          <text>分会3：智能制造行业分享座谈会</text>
+        </view>
+        <view class='seat_item_container'>
+          <text>地点：五山校区励吾楼11楼中心会议室</text>
+        </view>
+        <view class='seat_item_container noline'>
+          <text>分会4：生物医药行业分享座谈会</text>
+        </view>
+        <view class='seat_item_container'>
+          <text>地点：大学城校区B2三楼会议室</text>
+        </view>
+        <view class='seat_item_container noline'>
+          <text>分会5：节能环保与新能源行业分享座谈会</text>
+        </view>
+        <view class='seat_item_container'>
+          <text>地点：大学城校区环境学院215学术报告厅</text>
+        </view>
+      </view>
+      
+      <view class='seat_item_container noline'>
+        <view class='schedule_title'>交通工具发车地点与时间：</view>
+      </view>
+      <view class='schedule_item'>
+        <view class='seat_item_container noline'>
+          <text>大学城校区，16号8点</text>
+        </view>
+        <view class='seat_item_container'>
+          <text>五山校区，16号9点</text>
+        </view>
+      </view>
+    </view>
+    
+  </view>
+  <text>\n</text>

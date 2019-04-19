@@ -1,0 +1,23 @@
+<view class='main_layout'> 
+  <image src="../image/scut.jpg"></image>
+  <text style='font-size:25px'>2018年华南理工大学\n</text>
+  <text>首届全球校友大会</text>
+  <text>\n</text>
+  <text>\n</text>
+  <text>\n</text>
+  <text>\n</text>
+  <view class="section">
+    <form bindsubmit="formSubmit" >
+      <input type="text" name="user_name"  class='input-text' placeholder='请输入您的姓名' /> 
+    <text>\n</text>
+    <text>\n</text>
+    <text>\n</text>
+    
+   
+    <view>
+      <button type="primary" formType="submit"> 签到 </button>
+    </view>
+    </form>
+  </view>
+  
+</view>

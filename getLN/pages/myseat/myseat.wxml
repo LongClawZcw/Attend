@@ -1,0 +1,19 @@
+<view style="font-size:21px">
+  <!--提交按钮  -->
+  <form bindsubmit="formSubmit" >
+    <input type="text" name="user_name" placeholder='请输入您的姓名' style='border:1px solid #ccc;height:30px;'/>
+    <view class="divLine"></view>
+    <button formType="submit" style="font-size:25px" class='btn'>提交查询</button>    
+  </form>
+  <view class="divLine"></view>
+  <text> \n </text>
+  <view class='seat_container'>
+    <view class='seat_inner_container'>
+      <view class='seat_title_container'>座位号信息</view>
+      <view class='seat_item_container' wx:for='{{result}}' wx:for-index='index'>
+        <text>{{item.errMsg}}</text>
+        <view>{{item.seat_number}}</view>
+    </view>
+  </view>
+  </view>
+</view>

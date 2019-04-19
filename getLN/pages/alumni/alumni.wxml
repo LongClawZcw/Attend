@@ -1,0 +1,50 @@
+  <view class="userinfo">
+      <!-- <view bindtap='goToSchedule' class='schedule'>
+        <button class= "time">时刻表</button> 
+      </view> -->
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">{{alumniData.name}}</text>
+      <view bindtap='goToUpdateInfo' class='schedule'>
+        <button class= "time">修改信息</button> 
+      </view>
+  </view>
+  <view class='seat_container'>
+    <view class='seat_inner_container'>
+      <view class='seat_title_container'>您的信息</view>
+      <view class='seat_item_container'>
+        <view>工作单位：{{alumniData.company}}</view>
+      </view>
+      <view class='seat_item_container'>
+        <view>工作职务：{{alumniData.position}}</view>
+      </view>
+      <view class='seat_item_container'>
+        <view>地方校友会职务：{{alumniData.local_alumni_association_position}}</view>
+      </view>
+      <view class='seat_item_container'>
+        <view>主会议座位：{{alumniData.main_meeting_seat}}</view>
+      </view>
+      <!-- <view class='seat_item_container'>
+        <view>参加的行业分享会：{{alumniData.submeeting}}</view>
+      </view> -->
+      <!-- <view class='seat_title_container seat_title'>入住信息</view>
+      <view class='seat_item_container'>
+        <view>住宿酒店：{{alumniData.hotel}}</view>
+      </view>
+      <view class='seat_item_container'>
+        <view>住宿时间：{{alumniData.accommodation_time}}</view>
+      </view>
+      <view class='seat_item_container'>
+        <view>酒店房号：{{alumniData.room_number}}</view>
+      </view> -->
+      <view class='seat_title_container seat_title'>用餐信息</view>
+      <view class='seat_item_container'>
+        <view>16日午餐桌号：（西湖苑）{{alumniData.dinner_table_number}}</view>
+      </view>
+      <view class='seat_item_container'>
+        <view>16日晚餐桌号：（东方文德广场百乐门餐厅）{{alumniData.dinner_table_number}}</view>
+      </view>
+    </view>
+  </view>
+  <text>\n</text>
+  <button bindtap='goToSchedule' type='btn-primary'>更多</button>
+  <text>\n</text>

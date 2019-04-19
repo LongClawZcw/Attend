@@ -1,0 +1,33 @@
+<!--修改收货地址-->
+<view class="wraper main_layout">
+  <view>个人信息修改</view>
+  <form bindsubmit="updateAlumni">
+    <view class="listItems">
+      <text class="listLeft">姓名: </text>
+      <input type="text" name = 'inputname' class='input-text listRight' value='{{alumniData.name}}'/>
+    </view>
+    <view class = "listItems">
+      <text class="listLeft">性别: </text>
+      <radio-group class="radio-group gender1" bindchange = 'radioChange'>
+        <label class="radio" wx:for="{{sex}}">
+          <radio class='genderradio' value="{{item.value}}"  data-id='item.name' checked="{{item.checked}}"/>{{item.value}}
+        </label>
+      </radio-group>
+    </view>
+     <view class="listItems">
+        <text class="listLeft">工作单位: </text>
+        <input type="text" name = 'inputcompany'  class='input-text listRight'  value='{{alumniData.company}}'/>
+    </view>
+     <view class="listItems">
+        <text class="listLeft">职位: </text>
+       <input type="text" name = 'inputposition'  class='input-text listRight' value='{{alumniData.position}}'/>
+    </view>
+     <view class="listItems">
+        <text class="listLeft">校友会职务: </text>
+         <input type="text" name = 'inputlocalposition'  class='input-text listRight' value='{{alumniData.local_alumni_association_position}}'/>
+    </view>
+    <view class="btnGroup">
+        <button formType="submit" class="btn">确认修改</button>
+    </view>
+  </form>
+</view>

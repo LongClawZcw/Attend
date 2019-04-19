@@ -1,0 +1,25 @@
+{
+  "pages":[
+    "pages/main/main",
+    "pages/alumni/alumni",
+    "pages/schedule/schedule",
+    "pages/addalumni/addalumni",
+    "pages/updatealumni/updatealumni",
+    "pages/mydinnerseat/mydinnerseat",
+    "pages/myseat/myseat",
+    "pages/test/test",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "华工校友会",
+    "navigationBarTextStyle":"black"
+  },
+  "networkTimeout":{
+    "request":2000,
+    "connectSocket":4000,
+    "uploadFile": 4000,
+    "downloadFile":4000
+  }
+}

@@ -1,0 +1,28 @@
+<!--index.wxml-->
+
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+  <view class='seat_container'>
+    <view class='seat_inner_container'>
+      <view class='seat_title_container'>座位号信息</view>
+      <view  class='seat_item_container'wx:if="{{hasSeatInfo == false}}">自动获取失败，请输入真实姓名查询！</view>
+      <view class='seat_item_container' wx:for='{{result}}' wx:for-index='index'>
+        <view wx:if="{{hasSeatInfo == true}}">座位号：{{item.seat_number}}</view>
+     </view>
+      <view class='seat_item_container' wx:for='{{result}}' wx:for-index='index'>
+        <view wx:if="{{hasSeatInfo == true}}">餐桌号：{{item.dinner_table_number}}></view>
+     </view>
+    </view>
+  </view>
+
+<view class='btn1'>
+  <button bindtap='goToSeatPage'>查询座位号</button>
+</view>
+<view class='btn2'>
+  <button bindtap='goToDinnerSeatPage'>查询餐桌号</button>
+</view>

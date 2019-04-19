@@ -1,0 +1,71 @@
+/* pages/alumni/alumni.wxss */
+.userinfo {
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: rgb(10, 10, 10);
+}
+.seat_container{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  background: whitesmoke;
+}
+.seat_inner_container{
+  width: 100%;
+  height: 100%;
+  background: white;
+  border-radius: 10rpx;
+  margin-top: 20rpx;
+   
+}
+.seat_title_container{
+  display: flex;
+  justify-content: center;
+  height: 40rpx;
+  padding-bottom: 40rpx;
+  background: whitesmoke;
+  font-size: 22px;
+}
+.seat_item_container{
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+  margin-top:30rpx;
+  /*height: 60rpx;*/
+  border-bottom: 2rpx lightgray solid;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /*justify-content: center;*/
+  font-size: 18px;
+}
+.seat_title{
+  margin-top: 10px;
+  line-height: 45px;
+}
+.time{
+  float: right;
+  font-size: 14px;
+  width: 85px;
+  height: 36px;
+  background-color: rgb(26, 174, 24);
+  color: rgb(242, 244, 248);
+}
+.schedule{
+  font-size: 16px;
+  width: 96%;
+}
